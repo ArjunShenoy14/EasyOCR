@@ -1,9 +1,13 @@
 # EasyOCR
 Instal EasyOCR using :
-!pip install easyocr
+  !pip install easyocr
 
 Install Streamlit using :
-!pip install streamlit
+  !pip install streamlit
+
+Create EasyOCR reader and pass the image to read text from the image :
+   reader = easyocr.Reader(['en'])
+   results = reader.readtext(image_path)
 
 To establish SQL connection :
   conn = sqlite3.connect('details.db')
