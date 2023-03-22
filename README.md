@@ -5,7 +5,7 @@ Instal EasyOCR using :
 Install Streamlit using :
 !pip install streamlit
 
-to establish SQL connection :
+To establish SQL connection :
   conn = sqlite3.connect('details.db')
   c = conn.cursor()
   
